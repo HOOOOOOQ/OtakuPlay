@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" width="1200" height="320">
+  <defs>
+    <linearGradient id="logoRingGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#C084FC" />
+      <stop offset="55%" stop-color="#8B5CF6" />
+      <stop offset="100%" stop-color="#6D28D9" />
+    </linearGradient>
+    <linearGradient id="logoPlayGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="100%" stop-color="#C084FC" />
+    </linearGradient>
+    <linearGradient id="logoTextGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="68%" stop-color="#F3E8FF" />
+      <stop offset="100%" stop-color="#A78BFA" />
+    </linearGradient>
+  </defs>
+
+  <!-- O + Play Icon Mark -->
+  <g transform="translate(36, 36) scale(0.242)">
+    <path
+      d="M 512 132 A 380 380 0 1 1 206 286 L 286 350 A 278 278 0 1 0 512 234 Z"
+      fill="url(#logoRingGrad)"
+    />
+    <path
+      d="M 250 232 A 380 380 0 0 1 464 135 L 476 237 A 278 278 0 0 0 326 306 Z"
+      fill="#C084FC"
+    />
+    <path
+      d="M 436 338 C 436 314 462 300 483 312 L 726 484 C 746 498 746 526 726 540 L 483 712 C 462 724 436 710 436 686 Z"
+      fill="url(#logoPlayGrad)"
+    />
+  </g>
+
+  <!-- OTAKUPLAY Wordmark -->
+  <text
+    x="312"
+    y="186"
+    font-family="Inter, 'Segoe UI', Roboto, Arial, sans-serif"
+    font-size="116"
+    font-weight="800"
+    letter-spacing="10"
+    fill="url(#logoTextGrad)"
+  >OTAKU<tspan fill="#A78BFA">PLAY</tspan></text>
+
+  <!-- Subtle futuristic accent underline -->
+  <rect x="316" y="212" width="160" height="6" rx="3" fill="#8B5CF6" />
+  <rect x="488" y="212" width="44" height="6" rx="3" fill="#C084FC" opacity="0.7" />
+</svg>

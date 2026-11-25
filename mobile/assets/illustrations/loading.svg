@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" width="240" height="240">
+  <defs>
+    <linearGradient id="loadGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#C084FC" />
+      <stop offset="100%" stop-color="#8B5CF6" />
+    </linearGradient>
+  </defs>
+  <circle cx="120" cy="120" r="88" fill="none" stroke="#1B1928" stroke-width="14" />
+  <circle cx="120" cy="120" r="88" fill="none" stroke="url(#loadGrad)" stroke-width="14" stroke-linecap="round" stroke-dasharray="180 380" />
+  <path d="M 104 88 C 104 82 111 78 116 82 L 156 112 C 160 115 160 125 156 128 L 116 158 C 111 162 104 158 104 152 Z" fill="#A78BFA" />
+</svg>
